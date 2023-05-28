@@ -209,9 +209,4 @@ int main()
     root = insertNode(root, 67);
     root = insertNode(root, 83);
     root = insertNode(root, 95);
-
-    printTree(root);
-    std::cout << "\n" << std::endl;
-    deleteNode(root, 53);
-    printTree(root);
 }
